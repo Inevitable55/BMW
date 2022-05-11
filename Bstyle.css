@@ -1,0 +1,86 @@
+*{
+    font-family: 'Poppins',sans-serif;
+}
+.nav-bar{  
+    
+    height: 1.5cm;
+    padding-top: 5mm;
+    padding-left: 1.75cm;
+    padding-right: 1.75cm;
+    padding-bottom: 5mm;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+
+.textcon{
+    height: auto;
+    width: 100%;
+    padding-top: 2.5cm;
+    padding-bottom: 3.5cm;
+    margin-top: 1cm;
+    padding-left: 1.75cm;
+    background-image: url("Media/BMW1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    transition: all 1s ease;
+}
+
+.logo a img{
+    width: 170px;
+    height: auto;
+
+}
+
+.btn button{
+    background-color: rgb(23, 22, 22);
+    border-radius: 50px;
+    font-size: large;
+    color: white;
+    padding: 3mm 8mm;
+    cursor: pointer;
+}
+
+.textcon p{
+     width: 8cm;
+    
+    text-align: left;
+    font-size: 20px;
+}
+
+.textcon h3{
+    font-size:25px;
+    color: rgb(255, 60, 0);
+}
+
+.textcon h1{
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+.bb{
+    border-radius: 100px;
+    margin-right: 5mm;
+    padding: 10px;
+    border: none;
+    
+}
+#r{background-color: red;}
+#b{background-color: blue;}
+#bl{background-color: black;}
+
+.bb:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
